@@ -1,5 +1,8 @@
 .first-class{
-    width: 200px;
-    height: 200;
-    border: 1px solid red;
+    width: 95vw;
+    height: 95vh;
+    margin: auto;
+    shape-outside: ellipse(20% 50%);
+    clip-path: ellipse(20% 50%);
+    background: lightblue;
 }
