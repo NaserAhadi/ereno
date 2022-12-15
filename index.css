@@ -1,8 +1,80 @@
-.first-class{
+.face-base{
     width: 95vw;
     height: 95vh;
     margin: auto;
     shape-outside: ellipse(20% 50%);
     clip-path: ellipse(20% 50%);
-    background: lightblue;
+    background: #C48D81;
+    /* position: relative; */
+    border: 1px solid red;
 }
+
+.hair-left-part-top{
+    width: 20%;
+    height: 20%;
+    background: #0E0E0E;
+    position: absolute;
+    left: 30%;
+    top: 0;
+}
+
+.hair-right-part-bottom{
+    width: 5rem;
+    height: 20%;
+    background: #0E0E0E;
+    position: absolute;
+    right: 30%;
+    top: 20%;
+}
+
+.hair-right-part-top{
+    width: 20%;
+    height: 20%;
+    background: #0E0E0E;
+    position: absolute;
+    right: 30%;
+    top: 0;
+}
+
+.hair-left-part-bottom{
+    width: 5rem;
+    height: 20%;
+    background: #0E0E0E;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+
+.forehead-left-filler{
+    width: 2.2rem;
+    height: 1.2rem;
+    background: #C48D81;
+    position: absolute;
+    left: 33.6%;
+    top: 19.8%;
+    clip-path: ellipse(22% 50%);
+    transform: rotate(30deg);
+}
+
+.forehead-right-filler{
+    width: 2.2rem;
+    height: 1.2rem;
+    background: #C48D81;
+    position: absolute;
+    right: 33.6%;
+    top: 19.8%;
+    clip-path: ellipse(22% 50%);
+    transform: rotate(-30deg);
+}
+/*
+width: 2.2rem;
+    height: 1.2rem;
+    background: #C48D81;
+    position: absolute;
+    left: 33.6%;
+    top: 19.8%;
+    top: 19.%;
+    clip-path: ellipse(22% 50%);
+    transform: rotate(30deg);
+}
+*/
